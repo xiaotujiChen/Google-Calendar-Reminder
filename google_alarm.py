@@ -16,6 +16,9 @@ from oauth2client import tools
 from oauth2client.file import Storage
 from apscheduler.scheduler import Scheduler 
 
+logging.basicCongig()
+
+
 
 try:
     import argparse
@@ -28,7 +31,7 @@ except ImportError:
 SCOPES = 'https://www.googleapis.com/auth/calendar.readonly'
 CLIENT_SECRET_FILE = 'client_secret.json'
 APPLICATION_NAME = 'Google Calendar API Python Quickstart'
-MP3_PATH = '/Users/xiyuchen/Desktop/alarm/sample/mp3/'
+MP3_PATH = '/Users/username/path/to/mp3/collection/'
 
 
 def get_credentials():
