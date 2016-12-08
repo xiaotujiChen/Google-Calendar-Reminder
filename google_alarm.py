@@ -136,6 +136,6 @@ def callable_func():
 
 
 sched = Scheduler(standalone=True)
-sched.add_interval_job(callable_func,seconds=60)  #  define refresh rate. Set to every 10 seconds by default
+sched.add_interval_job(callable_func,seconds=60)  #  define refresh rate. Set to every 60 seconds by default
 sched.start()                                     #  runs the program indefinatly on an interval of x seconds
 
