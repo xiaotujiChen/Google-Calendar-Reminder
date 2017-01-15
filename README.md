@@ -1,4 +1,4 @@
-#Raspberry Pi Alarm Clock
+#Google Calendar Reminder
 ###Introduction
 It’s an alarm clock that syncs with our Google Calendar. It could fetch our events information and set alarm automaticlly. 
 ###Usage
