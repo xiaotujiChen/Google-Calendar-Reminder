@@ -23,7 +23,7 @@ $ sudo pip install apscheduler==2.1.2
 ```
 
 ### Design
-Since google calendar provide API for us to get upcoming ten events, we could use this API connecting with our google calendar. When first run quickstart.py, it will attempt to open a new window or tab in our default browser for the authorization. Then we could get the upcoming ten events.
+Google calendar provide API for us to get upcoming ten events, so we could use this API connecting with our google calendar. When first run quickstart.py, it will attempt to open a new window or tab in our default browser for the authorization. Then we could get the upcoming ten events.
 
 ![GitHub](http://coderxiaoyu.com/alarmclock/img/calendar1.png)
 
